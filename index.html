@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Base page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        /* Top Teal Header Section */
+        .header {
+            background-color: #dad60c; /* Teal color */
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Profile Image Styling */
+        .profile-img {
+            width: 160px;
+            height: 180px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+        }
+
+        /* Table structural layouts */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 18px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        /* Specific styles for labels */
+        .label-bold {
+            font-weight: bold;
+            width: 30%;
+        }
+
+        /* Cyan Divider Sections (Education & Skills) */
+        .section-bar {
+            background-color: hsl(55, 100%, 52%); /* Bright Cyan */
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .section-bar td {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Header with your Profile Pic -->
+    <div class="header">
+        <!-- Yeh aapki teesri pic (profile.jpg) ko load karega -->
+        <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+    </div>
+
+    <!-- Personal Info Section -->
+    <table>
+        <tr>
+            <td class="label-bold">Name</td>
+            <td>Zaheer Ahmed</td>
+        </tr>
+        <tr>
+            <td class="label-bold">Email</td>
+            <td>balochizaibo@gmail.com</td>
+        </tr>
+        <tr>
+            <td class="label-bold">Phone</td>
+            <td>03312582398</td>
+        </tr>
+        
+        <!-- Education Section Header -->
+        <tr class="section-bar">
+            <td colspan="3">Education</td>
+        </tr>
+        
+        <!-- Education Table Columns -->
+        <tr style="font-weight: bold;">
+            <td style="width: 30%;">Degree</td>
+            <td>Institute</td>
+            <td style="width: 20%;">Year</td>
+        </tr>
+        <tr>
+            <td>Matric</td>
+            <td>The Citizens Foundation</td>
+            <td>2021</td>
+        </tr>
+        <tr>
+            <td>Intermediate</td>
+            <td>inter college gresha</td>
+            <td>2023</td>
+        </tr>
+
+        <!-- Skills Section Header -->
+        <tr class="section-bar">
+            <td colspan="3">Skills</td>
+        </tr>
+    </table>
+
+    <!-- Skills Table Layout -->
+    <table>
+        <tr>
+            <td style="width: 30%;">Html</td>
+            <td>Python</td>
+            <td style="width: 20%;">Java</td>
+        </tr>
+    </table>
+
+</body>
+</html>
